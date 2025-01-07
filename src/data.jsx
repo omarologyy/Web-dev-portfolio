@@ -1,6 +1,5 @@
 import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
-import img1 from './images/img1'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
