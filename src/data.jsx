@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
+import img1 from './images/img1'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -36,7 +37,7 @@ export const projects = [
     url: 'https://e-commerce-opal-mu-92.vercel.app/',
     github: 'https://github.com/omarologyy/E-commerce',
     title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'This is an E-commerce website  project was built using React and Tailwind. It also used Redux toolkit for state management, React router for routing and navigation, as well as daisyUI library.',
   },
   {
     id: nanoid(),
