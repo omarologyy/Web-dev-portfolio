@@ -41,7 +41,7 @@ export const projects = [
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
+    url: 'https://cart-project-kappa.vercel.app/',
     github: 'https://github.com/john-smilga',
     title: 'second project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
