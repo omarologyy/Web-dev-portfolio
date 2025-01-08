@@ -42,7 +42,7 @@ export const projects = [
     id: nanoid(),
     img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
     url: 'https://cart-project-kappa.vercel.app/',
-    github: 'https://github.com/john-smilga',
+    github: 'https://github.com/omarologyy/Cart-Project',
     title: 'second project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
