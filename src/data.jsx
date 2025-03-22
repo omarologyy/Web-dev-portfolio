@@ -1,5 +1,8 @@
 import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
+import { SiTypescript, SiChakraui, SiTailwindcss } from 'react-icons/si'
+import { RiNextjsFill } from 'react-icons/ri'
+import pedmonie from '../src/assets/pedmonie.jpg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -27,6 +30,30 @@ export const skills = [
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
+  {
+    id: nanoid(),
+    title: 'Typescript',
+    icon: <SiTypescript className="h-16 w-16 text-emerald-500" />,
+    text: 'Implementing TypeScript ensures code robustness and maintainability, providing static typing for enhanced error detection and a smoother development workflow. This results in a cleaner, more reliable portfolio codebase.',
+  },
+  {
+    id: nanoid(),
+    title: 'NextJs',
+    icon: <RiNextjsFill className="h-16 w-16 text-emerald-500" />,
+    text: "Utilizing Next.js for server-side rendering and static site generation, I optimize portfolio performance and SEO, delivering fast and efficient user experiences. Next.js's routing and API capabilities streamline development and deployment.",
+  },
+  {
+    id: nanoid(),
+    title: 'ChakraUI',
+    icon: <SiChakraui className="h-16 w-16 text-emerald-500" />,
+    text: 'Chakra UI for rapid, accessible UI development, creating visually appealing interfaces.',
+  },
+  {
+    id: nanoid(),
+    title: 'TailwindCSS',
+    icon: <SiTailwindcss className="h-16 w-16 text-emerald-500" />,
+    text: 'Tailwind CSS for streamlined, customizable styling, achieving responsive designs efficiently',
+  },
 ]
 
 export const projects = [
@@ -36,7 +63,7 @@ export const projects = [
     url: 'https://e-commerce-opal-mu-92.vercel.app/',
     github: 'https://github.com/omarologyy/E-commerce',
     title: 'first project',
-    text: 'This is an E-commerce website  project was built using React and Tailwind. It also used Redux toolkit for state management, React router for routing and navigation, as well as daisyUI library.',
+    text: 'E-commerce website.',
   },
   {
     id: nanoid(),
@@ -44,6 +71,14 @@ export const projects = [
     url: 'https://cart-project-kappa.vercel.app/',
     github: 'https://github.com/omarologyy/Cart-Project',
     title: 'second project',
-    text: 'This is a mini cart project. The purpose of the project is to test how different hooks work together.',
+    text: 'Mini cart project.',
+  },
+  {
+    id: nanoid(),
+    img: pedmonie,
+    url: 'https://www.pedmonie.com.ng/',
+    github: 'https://github.com/omarologyy/pedmonie-frontend',
+    title: 'third project',
+    text: 'Fintech web app',
   },
 ]
