@@ -13,14 +13,19 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="#">
+            <a
+              href="https://github.com/omarologyy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/umar-sulaiman-a91a43175?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-            </a>
-            <a href="#">
-              <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
         </article>

@@ -44,6 +44,6 @@ export const projects = [
     url: 'https://cart-project-kappa.vercel.app/',
     github: 'https://github.com/omarologyy/Cart-Project',
     title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'This is a mini cart project. The purpose of the project is to test how different hooks work together.',
   },
 ]

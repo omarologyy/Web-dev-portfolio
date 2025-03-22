@@ -8,10 +8,11 @@ const About = () => {
         <article>
           <SectionTitle text="code and coffee" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            omnis exercitationem tempora, aliquid deleniti tenetur vero esse
-            praesentium eaque dicta fugiat? Molestiae expedita, nulla neque
-            error porro sint distinctio possimus!
+            I'm a Frontend Developer with a strong passion for crafting modern,
+            responsive, and user-centric web applications. Proficient in React,
+            Typescript, and TailwindCSS, I focus on building intuitive
+            interfaces that enhance user experience. Let’s collaborate and
+            create something impactful! 🚀
           </p>
         </article>
       </div>
